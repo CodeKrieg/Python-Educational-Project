@@ -11,10 +11,8 @@ def compound_interest():
 
     for time in range(1, time):
         formula = principal * (1.0 + rate)** time
-        formula = formula - principal
         print "%4d%21.2f" % (time, formula)
-        # print formula
-
+        
 def start():
     print "Lets start compounding your interest."
     compound_interest()
